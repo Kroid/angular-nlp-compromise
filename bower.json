@@ -1,0 +1,19 @@
+{
+  "name": "angular-nlp-compromise",
+  "version": "0.3.1",
+  "description": "Angular js module for nlp_compromise library https://github.com/spencermountain/nlp_compromise",
+  "keywords": ["nlp", "nltk", "natural", "language", "processing", "angular", "nlp_compromise"],
+  "main": "./dist/angular-nlp-compromise.js",
+  "homepage": "https://github.com/Kroid/angular-nlp-compromise",
+  "authors": [
+    "George M Kroid <kroid@yandex.ru>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

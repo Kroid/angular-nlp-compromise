@@ -1,0 +1,43 @@
+<html ng-app="app">
+  <head>
+    <title>angular-nlp-compromise example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  </head>
+  <body ng-controller="AppController as vm">
+    <div class="row">
+      <div class="col-md-6">
+          <h4 align="center"><a href="https://github.com/spencermountain/nlp_compromise" target="_blank">nlp_compromise</a>, wrapped in angular module - small example:</h4>
+          <textarea class="form-control" ng-model="vm.text" rows="10"></textarea>
+          <p align="right"><a href="https://github.com/kroid/angular-nlp-compromise">angular-nlp-compromise repository</a></p>
+      </div>
+
+      <div class="col-md-6">
+        <div ng-if="vm.nouns">
+          <h4>Nouns:</h4>
+          <p>{{ vm.nouns }}</p>
+        </div>
+        <div ng-if="vm.adjectives">
+          <h4>Adjectives:</h4>
+          <p>{{ vm.adjectives }}</p>
+        </div>
+        <div ng-if="vm.adverbs">
+          <h4>Adverbs:</h4>
+          <p>{{ vm.adverbs }}</p>
+        </div>
+        <div ng-if="vm.verbs">
+          <h4>Verbs:</h4>
+          <p>{{ vm.verbs }}</p>
+        </div>
+        <div ng-if="vm.values">
+          <h4>Values:</h4>
+          <p>{{ vm.values }}</p>
+        </div>
+      </div>
+    </div>
+    <script src="http://underscorejs.org/underscore-min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.min.js"></script>
+    <script src="../dist/angular-nlp-compromise.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
