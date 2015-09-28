@@ -1,6 +1,6 @@
 {
   "name": "angular-nlp-compromise",
-  "version": "0.3.7",
+  "version": "1.1.0",
   "description": "Angular js module for nlp_compromise library https://github.com/spencermountain/nlp_compromise",
   "keywords": ["nlp", "nltk", "natural", "language", "processing", "angular", "nlp_compromise"],
   "main": "./dist/angular-nlp-compromise.js",

@@ -1,5 +1,6 @@
 (function(){
-  'use strict';
+  // https://github.com/spencermountain/nlp_compromise/issues/62
+  // 'use strict';
 
   angular.module('nlpCompromise', []).factory('nlp', factory);
 
